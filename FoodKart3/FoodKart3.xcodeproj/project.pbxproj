@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52567534291BFD4C000A1B22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52567533291BFD4C000A1B22 /* GoogleService-Info.plist */; };
+		52567535291BFD4C000A1B22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52567533291BFD4C000A1B22 /* GoogleService-Info.plist */; };
+		52567536291BFD4C000A1B22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52567533291BFD4C000A1B22 /* GoogleService-Info.plist */; };
+		52567539291C04CB000A1B22 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 52567538291C04CB000A1B22 /* FirebaseAuth */; };
+		5265C7A4291C0A33006CF377 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265C7A3291C0A33006CF377 /* LoginViewController.swift */; };
+		5265C7A6291C0BA3006CF377 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265C7A5291C0BA3006CF377 /* CreateAccountViewController.swift */; };
+		52AAB9FD293752AB00B0D72A /* apiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAB9FC293752AB00B0D72A /* apiViewController.swift */; };
+		52BDF111291BD62500B1CC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF110291BD62500B1CC2F /* AppDelegate.swift */; };
+		52BDF113291BD62500B1CC2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF112291BD62500B1CC2F /* SceneDelegate.swift */; };
+		52BDF115291BD62500B1CC2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF114291BD62500B1CC2F /* ViewController.swift */; };
+		52BDF118291BD62500B1CC2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BDF116291BD62500B1CC2F /* Main.storyboard */; };
+		52BDF11A291BD62700B1CC2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BDF119291BD62700B1CC2F /* Assets.xcassets */; };
+		52BDF11D291BD62700B1CC2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BDF11B291BD62700B1CC2F /* LaunchScreen.storyboard */; };
+		52BDF128291BD62700B1CC2F /* FoodKart3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF127291BD62700B1CC2F /* FoodKart3Tests.swift */; };
+		52BDF132291BD62700B1CC2F /* FoodKart3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF131291BD62700B1CC2F /* FoodKart3UITests.swift */; };
+		52BDF134291BD62700B1CC2F /* FoodKart3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF133291BD62700B1CC2F /* FoodKart3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52BDF124291BD62700B1CC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BDF105291BD62500B1CC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BDF10C291BD62500B1CC2F;
+			remoteInfo = FoodKart3;
+		};
+		52BDF12E291BD62700B1CC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BDF105291BD62500B1CC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BDF10C291BD62500B1CC2F;
+			remoteInfo = FoodKart3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52567533291BFD4C000A1B22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5265C7A3291C0A33006CF377 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5265C7A5291C0BA3006CF377 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		52AAB9FC293752AB00B0D72A /* apiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiViewController.swift; sourceTree = "<group>"; };
+		52BDF10D291BD62500B1CC2F /* FoodKart3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodKart3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDF110291BD62500B1CC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52BDF112291BD62500B1CC2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52BDF114291BD62500B1CC2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52BDF117291BD62500B1CC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52BDF119291BD62700B1CC2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52BDF11C291BD62700B1CC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52BDF11E291BD62700B1CC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BDF123291BD62700B1CC2F /* FoodKart3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodKart3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDF127291BD62700B1CC2F /* FoodKart3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodKart3Tests.swift; sourceTree = "<group>"; };
+		52BDF12D291BD62700B1CC2F /* FoodKart3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodKart3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDF131291BD62700B1CC2F /* FoodKart3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodKart3UITests.swift; sourceTree = "<group>"; };
+		52BDF133291BD62700B1CC2F /* FoodKart3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodKart3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BDF10A291BD62500B1CC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52567539291C04CB000A1B22 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDF120291BD62700B1CC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDF12A291BD62700B1CC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BDF104291BD62500B1CC2F = {
+			isa = PBXGroup;
+			children = (
+				52BDF10F291BD62500B1CC2F /* FoodKart3 */,
+				52BDF126291BD62700B1CC2F /* FoodKart3Tests */,
+				52BDF130291BD62700B1CC2F /* FoodKart3UITests */,
+				52BDF10E291BD62500B1CC2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BDF10E291BD62500B1CC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BDF10D291BD62500B1CC2F /* FoodKart3.app */,
+				52BDF123291BD62700B1CC2F /* FoodKart3Tests.xctest */,
+				52BDF12D291BD62700B1CC2F /* FoodKart3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BDF10F291BD62500B1CC2F /* FoodKart3 */ = {
+			isa = PBXGroup;
+			children = (
+				52BDF110291BD62500B1CC2F /* AppDelegate.swift */,
+				52BDF112291BD62500B1CC2F /* SceneDelegate.swift */,
+				52BDF114291BD62500B1CC2F /* ViewController.swift */,
+				52BDF116291BD62500B1CC2F /* Main.storyboard */,
+				52AAB9FC293752AB00B0D72A /* apiViewController.swift */,
+				5265C7A3291C0A33006CF377 /* LoginViewController.swift */,
+				5265C7A5291C0BA3006CF377 /* CreateAccountViewController.swift */,
+				52BDF119291BD62700B1CC2F /* Assets.xcassets */,
+				52BDF11B291BD62700B1CC2F /* LaunchScreen.storyboard */,
+				52BDF11E291BD62700B1CC2F /* Info.plist */,
+			);
+			path = FoodKart3;
+			sourceTree = "<group>";
+		};
+		52BDF126291BD62700B1CC2F /* FoodKart3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52BDF127291BD62700B1CC2F /* FoodKart3Tests.swift */,
+			);
+			path = FoodKart3Tests;
+			sourceTree = "<group>";
+		};
+		52BDF130291BD62700B1CC2F /* FoodKart3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				52BDF131291BD62700B1CC2F /* FoodKart3UITests.swift */,
+				52BDF133291BD62700B1CC2F /* FoodKart3UITestsLaunchTests.swift */,
+				52567533291BFD4C000A1B22 /* GoogleService-Info.plist */,
+			);
+			path = FoodKart3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BDF10C291BD62500B1CC2F /* FoodKart3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDF137291BD62700B1CC2F /* Build configuration list for PBXNativeTarget "FoodKart3" */;
+			buildPhases = (
+				52BDF109291BD62500B1CC2F /* Sources */,
+				52BDF10A291BD62500B1CC2F /* Frameworks */,
+				52BDF10B291BD62500B1CC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodKart3;
+			packageProductDependencies = (
+				52567538291C04CB000A1B22 /* FirebaseAuth */,
+			);
+			productName = FoodKart3;
+			productReference = 52BDF10D291BD62500B1CC2F /* FoodKart3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52BDF122291BD62700B1CC2F /* FoodKart3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDF13A291BD62700B1CC2F /* Build configuration list for PBXNativeTarget "FoodKart3Tests" */;
+			buildPhases = (
+				52BDF11F291BD62700B1CC2F /* Sources */,
+				52BDF120291BD62700B1CC2F /* Frameworks */,
+				52BDF121291BD62700B1CC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BDF125291BD62700B1CC2F /* PBXTargetDependency */,
+			);
+			name = FoodKart3Tests;
+			productName = FoodKart3Tests;
+			productReference = 52BDF123291BD62700B1CC2F /* FoodKart3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52BDF12C291BD62700B1CC2F /* FoodKart3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDF13D291BD62700B1CC2F /* Build configuration list for PBXNativeTarget "FoodKart3UITests" */;
+			buildPhases = (
+				52BDF129291BD62700B1CC2F /* Sources */,
+				52BDF12A291BD62700B1CC2F /* Frameworks */,
+				52BDF12B291BD62700B1CC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BDF12F291BD62700B1CC2F /* PBXTargetDependency */,
+			);
+			name = FoodKart3UITests;
+			productName = FoodKart3UITests;
+			productReference = 52BDF12D291BD62700B1CC2F /* FoodKart3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BDF105291BD62500B1CC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					52BDF10C291BD62500B1CC2F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					52BDF122291BD62700B1CC2F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 52BDF10C291BD62500B1CC2F;
+					};
+					52BDF12C291BD62700B1CC2F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 52BDF10C291BD62500B1CC2F;
+					};
+				};
+			};
+			buildConfigurationList = 52BDF108291BD62500B1CC2F /* Build configuration list for PBXProject "FoodKart3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BDF104291BD62500B1CC2F;
+			packageReferences = (
+				52567537291C04CB000A1B22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 52BDF10E291BD62500B1CC2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BDF10C291BD62500B1CC2F /* FoodKart3 */,
+				52BDF122291BD62700B1CC2F /* FoodKart3Tests */,
+				52BDF12C291BD62700B1CC2F /* FoodKart3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BDF10B291BD62500B1CC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDF11D291BD62700B1CC2F /* LaunchScreen.storyboard in Resources */,
+				52567534291BFD4C000A1B22 /* GoogleService-Info.plist in Resources */,
+				52BDF11A291BD62700B1CC2F /* Assets.xcassets in Resources */,
+				52BDF118291BD62500B1CC2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDF121291BD62700B1CC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52567535291BFD4C000A1B22 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDF12B291BD62700B1CC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52567536291BFD4C000A1B22 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BDF109291BD62500B1CC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265C7A6291C0BA3006CF377 /* CreateAccountViewController.swift in Sources */,
+				5265C7A4291C0A33006CF377 /* LoginViewController.swift in Sources */,
+				52BDF115291BD62500B1CC2F /* ViewController.swift in Sources */,
+				52AAB9FD293752AB00B0D72A /* apiViewController.swift in Sources */,
+				52BDF111291BD62500B1CC2F /* AppDelegate.swift in Sources */,
+				52BDF113291BD62500B1CC2F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDF11F291BD62700B1CC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDF128291BD62700B1CC2F /* FoodKart3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDF129291BD62700B1CC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDF134291BD62700B1CC2F /* FoodKart3UITestsLaunchTests.swift in Sources */,
+				52BDF132291BD62700B1CC2F /* FoodKart3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BDF125291BD62700B1CC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BDF10C291BD62500B1CC2F /* FoodKart3 */;
+			targetProxy = 52BDF124291BD62700B1CC2F /* PBXContainerItemProxy */;
+		};
+		52BDF12F291BD62700B1CC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BDF10C291BD62500B1CC2F /* FoodKart3 */;
+			targetProxy = 52BDF12E291BD62700B1CC2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52BDF116291BD62500B1CC2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BDF117291BD62500B1CC2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52BDF11B291BD62700B1CC2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BDF11C291BD62700B1CC2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52BDF135291BD62700B1CC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52BDF136291BD62700B1CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BDF138291BD62700B1CC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodKart3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios3218.FoodKart3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52BDF139291BD62700B1CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodKart3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios3218.FoodKart3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52BDF13B291BD62700B1CC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios3218.FoodKart3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodKart3.app/FoodKart3";
+			};
+			name = Debug;
+		};
+		52BDF13C291BD62700B1CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios3218.FoodKart3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodKart3.app/FoodKart3";
+			};
+			name = Release;
+		};
+		52BDF13E291BD62700B1CC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios3218.FoodKart3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodKart3;
+			};
+			name = Debug;
+		};
+		52BDF13F291BD62700B1CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios3218.FoodKart3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodKart3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BDF108291BD62500B1CC2F /* Build configuration list for PBXProject "FoodKart3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDF135291BD62700B1CC2F /* Debug */,
+				52BDF136291BD62700B1CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BDF137291BD62700B1CC2F /* Build configuration list for PBXNativeTarget "FoodKart3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDF138291BD62700B1CC2F /* Debug */,
+				52BDF139291BD62700B1CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BDF13A291BD62700B1CC2F /* Build configuration list for PBXNativeTarget "FoodKart3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDF13B291BD62700B1CC2F /* Debug */,
+				52BDF13C291BD62700B1CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BDF13D291BD62700B1CC2F /* Build configuration list for PBXNativeTarget "FoodKart3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDF13E291BD62700B1CC2F /* Debug */,
+				52BDF13F291BD62700B1CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52567537291C04CB000A1B22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52567538291C04CB000A1B22 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52567537291C04CB000A1B22 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52BDF105291BD62500B1CC2F /* Project object */;
+}
